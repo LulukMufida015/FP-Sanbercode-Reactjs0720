@@ -74,7 +74,7 @@ class gameTable extends Component {
                             {
                                 this.state.games.map((item, index) => {
                                     return (
-                                        <TableRow key={index} style={{ backgroundColor: "coral" }}>
+                                        <TableRow key={index}>
                                             <TableCell>{index + 1}</TableCell>
                                             <TableCell align="right">{item.name}</TableCell>
                                             <TableCell align="right">{item.genre}</TableCell>
